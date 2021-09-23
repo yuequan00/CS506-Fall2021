@@ -3,5 +3,5 @@ def draw_education():
     draw_school()
     return
 
-draw_education()
+print(draw_education())
 
