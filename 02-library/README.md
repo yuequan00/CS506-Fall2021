@@ -87,5 +87,12 @@ line and replace it with code that does what the function should do. Test your i
 
 It's a good idea to take a look at the tests defined [here](https://github.com/gallettilance/CS506-Fall2021/blob/master/02-library/tests/test_read.py), [here](https://github.com/gallettilance/CS506-Fall2021/blob/master/02-library/tests/test_sim.py) and [here](https://github.com/gallettilance/CS506-Fall2021/blob/master/02-library/tests/test_kmeans.py), and add a few tests of your own. Remember to use both positive and negative examples for testing.
 
+## Matrix Determinant
+
+1. Create a new file in the `02-library/cs506/` called `matrix.py`
+2. In this file, implement a function called `get_determinant()` which takes in a matrix (list of lists) and returns the determinant of the matrix.
+3. Create a new file in the `02-library/tests/` called `test_matrix.py`
+4. In this file, implement tests for your `get_determinant` function. Please look at the other test files to understand how to create the test function.
+5. ensure you check both negative and positive examples and check for edge cases
 
 Contributions are always welcome (and encouraged) to clarify existing documentation in this repository!
