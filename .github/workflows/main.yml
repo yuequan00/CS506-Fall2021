@@ -1,4 +1,4 @@
-name: kviz CI
+name: cs506 CI
 
 on: [push, pull_request]
 
